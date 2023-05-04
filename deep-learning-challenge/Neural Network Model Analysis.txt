@@ -1,0 +1,25 @@
+Report Analysis
+
+Overview of the analysis: Explain the purpose of this analysis.
+
+The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+
+The purpose of this analysis is to evaluate the model with various types of methods to achieve the most optimal Accuracy. While evaluating the results we will achieve whether an applicant will be successful if funded by Alphabet Soup.
+
+Results: Using bulleted lists and images to support your answers, address the following questions:
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+While selecting 2-4 layers, number of neurons, and activation functions I was able to obtain a 73% accuracy rate on my model but was unable to obtain the 75% predictive accuracy for the model.
+
+Were you able to achieve the target model performance?
+
+At 73%, the original model created was the most optimal I was able to achieve.
+
+What steps did you take in your attempts to increase model performance?
+
+I utilized the skills I learned using the keras model to obtain the most accurate results by manipulating the activation functions and the layers along with it.
+
+Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+With the dataset given, if we were able to use different models, we may be able to solve the classifaction model. While looking up various models to utilize, it seems that the Convolutional Neural Networks (CNNs) would provide us a better result for the dataset given the benefit of using CNNs is their ability to develop an internal representation of a two-dimensional image. This allows the model to learn position and scale in variant structures in the data, which is important when working with images.
